@@ -1,0 +1,13 @@
+Algoritmo Area_Cuadrado
+	
+	Definir l, aC Como Real
+	
+	Escribir "Ingrese la longitud del lado:"
+	Leer l
+	
+	aC <- l * l
+	
+	Escribir "Longitud del lado: ", l
+	Escribir "El area del cuadrado es: ", aC
+	
+FinAlgoritmo

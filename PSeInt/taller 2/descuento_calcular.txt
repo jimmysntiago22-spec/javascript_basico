@@ -1,0 +1,20 @@
+Algoritmo descuento_calcular
+	Definir valor, descuento, valorDescuento, valorFinal Como Real
+	
+	Escribir "Ingrese el valor:"
+	Leer valor
+	
+	Si valor > 100000 Entonces
+		descuento <- 10
+	Sino
+		descuento <- 2
+	FinSi
+	
+	valorDescuento <- valor * descuento / 100
+	valorFinal <- valor - valorDescuento
+	
+	Escribir "Valor original: $", valor
+	Escribir "Descuento: ", descuento, "%"
+	Escribir "Valor del descuento: $", valorDescuento
+	Escribir "Valor final: $", valorFinal
+FinAlgoritmo

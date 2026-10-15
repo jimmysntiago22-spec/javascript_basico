@@ -1,0 +1,13 @@
+Algoritmo Diez_Porciento
+	
+	Definir valor, porcentaje Como Real
+	
+	Escribir "Ingrese un valor:"
+	Leer valor
+	
+	porcentaje <- valor * 0.10
+	
+	Escribir "Valor ingresado: ", valor
+	Escribir "El 10% del valor es: ", porcentaje
+	
+FinAlgoritmo

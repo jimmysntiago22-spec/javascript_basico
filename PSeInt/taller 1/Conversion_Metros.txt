@@ -1,0 +1,25 @@
+Algoritmo Conversion_Metros
+	
+	Definir metros Como Real
+	Definir kilometros, hectometros, decametros Como Real
+	Definir decimetros, centimetros, milimetros Como Real
+	
+	Escribir "Ingrese una cantidad en metros:"
+	Leer metros
+	
+	kilometros <- metros / 1000
+	hectometros <- metros / 100
+	decametros <- metros / 10
+	decimetros <- metros * 10
+	centimetros <- metros * 100
+	milimetros <- metros * 1000
+	
+	Escribir "Metros: ", metros
+	Escribir "Kilometros: ", kilometros
+	Escribir "Hectometros: ", hectometros
+	Escribir "Decametros: ", decametros
+	Escribir "Decimetros: ", decimetros
+	Escribir "Centimetros: ", centimetros
+	Escribir "Milimetros: ", milimetros
+	
+FinAlgoritmo

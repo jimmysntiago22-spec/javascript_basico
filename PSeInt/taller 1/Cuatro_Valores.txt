@@ -1,0 +1,27 @@
+Algoritmo Cuatro_Valores
+	
+	Definir a, b, c, d, suma, resta Como Real
+	
+	Escribir "Ingrese el primer valor:"
+	Leer a
+	
+	Escribir "Ingrese el segundo valor:"
+	Leer b
+	
+	Escribir "Ingrese el tercer valor:"
+	Leer c
+	
+	Escribir "Ingrese el cuarto valor:"
+	Leer d
+	
+	suma <- a + b + c + d
+	resta <- suma - d
+	
+	Escribir "Primer valor: ", a
+	Escribir "Segundo valor: ", b
+	Escribir "Tercer valor: ", c
+	Escribir "Cuarto valor: ", d
+	Escribir "La suma es: ", suma
+	Escribir "La resta es: ", resta
+	
+FinAlgoritmo

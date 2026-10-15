@@ -1,0 +1,15 @@
+Algoritmo Pesos_A_Dolares_Y_Euros
+	
+	Definir pesos, dolar, euro,conversionapesos  Como Real
+	
+	Escribir "Ingrese el valor en pesos colombianos:"
+	Leer pesos
+	
+	dolar<-pesos/3100
+	euro<-pesos/3600
+
+	Escribir "Pesos colombianos: $", pesos
+	Escribir "Valor en dolares: $", dolar
+	Escribir "Valor en euros: ", euro
+	
+FinAlgoritmo

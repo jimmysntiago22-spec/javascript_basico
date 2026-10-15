@@ -1,0 +1,23 @@
+Algoritmo Descuento_IVA
+	Definir precioBruto, iva, valorIVA, valorVenta, descuento, valorDescuento, total Como Real
+	
+	Escribir "Ingrese el precio bruto del articulo:"
+	Leer precioBruto
+	
+	iva <- precioBruto * 12 / 100
+	valorVenta <- precioBruto + iva
+	
+	Si valorVenta > 150000 Entonces
+		descuento <- valorVenta * 5 / 100
+	Sino
+		descuento <- 0
+	FinSi
+	
+	total <- valorVenta - descuento
+	
+	Escribir "Precio bruto: $", precioBruto
+	Escribir "IVA (12%): $", iva
+	Escribir "Valor con IVA: $", valorVenta
+	Escribir "Descuento: $", descuento
+	Escribir "Valor total a pagar: $", total
+FinAlgoritmo

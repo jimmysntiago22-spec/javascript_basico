@@ -1,0 +1,17 @@
+Algoritmo Costo_Automovil
+	
+	Definir precio, ganancia, impuesto, costoTotal Como Real
+	
+	precio <- 35000000
+	
+	ganancia <- precio * 0.12
+	impuesto <- precio * 0.06
+	
+	costoTotal <- precio + ganancia + impuesto
+	
+	Escribir "Precio del vehiculo: $", precio
+	Escribir "Ganancia del vendedor (12%): $", ganancia
+	Escribir "Impuesto (6%): $", impuesto
+	Escribir "Costo total para el comprador: $", costoTotal
+	
+FinAlgoritmo

@@ -1,0 +1,13 @@
+Algoritmo Area_Circulo
+	
+	Definir r, aCir Como Real
+	
+	Escribir "Ingrese el radio del circulo:"
+	Leer r
+	
+	aCir <- 3.1416 * r ^ 2
+	
+	Escribir "Radio: ", r
+	Escribir "El area del circulo es: ", aCir
+	
+FinAlgoritmo

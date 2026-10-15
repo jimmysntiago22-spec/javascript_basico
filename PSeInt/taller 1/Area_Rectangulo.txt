@@ -1,0 +1,17 @@
+Algoritmo AreaRectangulo
+	
+	Definir b, h, aR Como Real
+	
+	Escribir "Ingrese la base del rectangulo:"
+	Leer b
+	
+	Escribir "Ingrese la altura del rectangulo:"
+	Leer h
+	
+	aR <- b * h
+	
+	Escribir "Base: ", b
+	Escribir "Altura: ", h
+	Escribir "El area del rectangulo es: ", aR
+	
+FinAlgoritmo

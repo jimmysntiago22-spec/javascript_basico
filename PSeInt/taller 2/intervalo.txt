@@ -1,0 +1,36 @@
+Algoritmo intervalo
+	Definir numero Como Real
+	
+	Escribir "Ingrese un numero:"
+	Leer numero
+	
+	Si numero < 20 Entonces
+		Escribir "El numero se encuentra en el intervalo menor de 20"
+	Sino
+		Si numero >= 20 Y numero <= 50 Entonces
+			Escribir "El numero se encuentra entre 20 y 50"
+		Sino
+			Si numero >= 51 Y numero <= 69 Entonces
+				Escribir "El numero se encuentra entre 51 y 69"
+			Sino
+				Si numero >= 70 Y numero <= 120 Entonces
+					Escribir "El numero se encuentra entre 70 y 120"
+				Sino
+					Si numero >= 121 Y numero <= 149 Entonces
+						Escribir "El numero se encuentra entre 121 y 149"
+					Sino
+						Si numero >= 150 Y numero <= 300 Entonces
+							Escribir "El numero se encuentra entre 150 y 300"
+						Sino
+							Si numero > 300 Entonces
+								Escribir "El numero es mayor de 300"
+							Sino
+								Escribir "El numero no se encuentra en ningun intervalo"
+							FinSi
+						FinSi
+					FinSi
+				FinSi
+			FinSi
+		FinSi
+	FinSi
+FinAlgoritmo

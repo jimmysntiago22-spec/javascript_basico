@@ -1,0 +1,13 @@
+Algoritmo Celsius_AFahrenheit
+	
+	Definir c, f Como Real
+	
+	Escribir "Ingrese la temperatura en grados Celsius:"
+	Leer c
+	
+	f <- (c * 9 / 5) + 32
+	
+	Escribir "Temperatura en Celsius: ", c, " °C"
+	Escribir "Temperatura en Fahrenheit: ", f, " °F"
+	
+FinAlgoritmo

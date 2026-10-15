@@ -1,0 +1,24 @@
+Algoritmo Deuda_Interes_Interes
+	Definir deuda, interes, valorInteres, total Como Real
+	
+	Escribir "Ingrese el monto de la deuda:"
+	Leer deuda
+	
+	Si deuda > 500000 Entonces
+		interes <- 3
+	Sino
+		Si deuda > 300000 Y deuda <= 500000 Entonces
+			interes <- 6
+		Sino
+			interes <- 0
+		FinSi
+	FinSi
+	
+	valorInteres <- deuda * interes / 100
+	total <- deuda + valorInteres
+	
+	Escribir "Deuda: $", deuda
+	Escribir "Porcentaje de interes: ", interes, "%"
+	Escribir "Valor del interes: $", valorInteres
+	Escribir "Total a pagar: $", total
+FinAlgoritmo

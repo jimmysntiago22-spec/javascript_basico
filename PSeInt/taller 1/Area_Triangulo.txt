@@ -1,0 +1,12 @@
+Algoritmo Area_Triangulo
+	Definir base, altura, area Como Real
+	Escribir 'vamos a calcular el area de un triangulo'
+	Escribir 'por favor digita la base en números:'
+	Leer base
+	Escribir 'por favor digita la base en números:'
+	Leer altura
+	area <- (base*altura)/2
+	Escribir 'La base es: ', base
+	Escribir 'La altura es: ', altura
+	Escribir 'El area del triangulo es: ', area
+FinAlgoritmo

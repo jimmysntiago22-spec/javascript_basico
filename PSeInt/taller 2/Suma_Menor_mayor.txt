@@ -1,0 +1,60 @@
+Algoritmo Suma_Menor_mayor
+	Definir n1, n2, n3, n4, n5 Como Real
+	Definir suma, mayor, menor Como Real
+	
+	Escribir "Ingrese el primer valor:"
+	Leer n1
+	
+	Escribir "Ingrese el segundo valor:"
+	Leer n2
+	
+	Escribir "Ingrese el tercer valor:"
+	Leer n3
+	
+	Escribir "Ingrese el cuarto valor:"
+	Leer n4
+	
+	Escribir "Ingrese el quinto valor:"
+	Leer n5
+	
+	suma <- n1 + n2 + n3 + n4 + n5
+	
+	mayor <- n1
+	menor <- n1
+	
+	Si n2 > mayor Entonces
+		mayor <- n2
+	FinSi
+	
+	Si n3 > mayor Entonces
+		mayor <- n3
+	FinSi
+	
+	Si n4 > mayor Entonces
+		mayor <- n4
+	FinSi
+	
+	Si n5 > mayor Entonces
+		mayor <- n5
+	FinSi
+	
+	Si n2 < menor Entonces
+		menor <- n2
+	FinSi
+	
+	Si n3 < menor Entonces
+		menor <- n3
+	FinSi
+	
+	Si n4 < menor Entonces
+		menor <- n4
+	FinSi
+	
+	Si n5 < menor Entonces
+		menor <- n5
+	FinSi
+	
+	Escribir "La suma es: ", suma
+	Escribir "El mayor es: ", mayor
+	Escribir "El menor es: ", menor
+FinAlgoritmo

@@ -1,0 +1,17 @@
+Algoritmo AreaRombo
+	
+	Definir dMen, dMay, aRmb Como Real
+	
+	Escribir "Ingrese la diagonal menor:"
+	Leer dMen
+	
+	Escribir "Ingrese la diagonal mayor:"
+	Leer dMay
+	
+	aRmb <- (dMen * dMay) / 2
+	
+	Escribir "Diagonal menor: ", dMen
+	Escribir "Diagonal mayor: ", dMay
+	Escribir "El area del rombo es: ", aRmb
+	
+FinAlgoritmo

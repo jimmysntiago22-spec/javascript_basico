@@ -1,0 +1,21 @@
+Algoritmo Area_Trapecio
+	
+	Definir bMen, bMay, h, aTrap Como Real
+	
+	Escribir "Ingrese la base menor:"
+	Leer bMen
+	
+	Escribir "Ingrese la base mayor:"
+	Leer bMay
+	
+	Escribir "Ingrese la altura:"
+	Leer h
+	
+	aTrap <- ((bMen + bMay) * h) / 2
+	
+	Escribir "Base menor: ", bMen
+	Escribir "Base mayor: ", bMay
+	Escribir "Altura: ", h
+	Escribir "El area del trapecio es: ", aTrap
+	
+FinAlgoritmo
